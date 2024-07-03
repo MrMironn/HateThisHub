@@ -1,0 +1,326 @@
+{
+  "mod_elements": [
+    {
+      "name": "Sasa",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/item/SasaItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SasaOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/worldgen/configured_feature/sasa_ore.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sasa_ore.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SasaOreBlock.java",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sasa_ore.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sasa_ore.json",
+          "src/main/resources/data/the_elder_scrolls_craft/forge/biome_modifier/sasa_ore_biome_modifier.json",
+          "src/main/resources/data/the_elder_scrolls_craft/worldgen/placed_feature/sasa_ore.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_ore.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SasaBlockBlock.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_block.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sasa_block.json",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sasa_block.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sasa_block.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_ore_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_block_ore_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_ore_smelting.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelderscrollscraft/item/SasaPickaxeItem.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_axe.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/item/SasaAxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SasaSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_sword.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/item/SasaSwordItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SasaShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_shovel.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/item/SasaShovelItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SasaHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_hoe.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/item/SasaHoeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SasaPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_armor_leggings.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/item/SasaArmorItem.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_armor_boots.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_armor_chestplate.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_armor_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SasaArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sasa_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_armor_boots_recipe.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:SasaBlock",
+      "~CUSTOM:SasaOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:SasaBlock",
+      "~CUSTOM:SasaOre"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.the_elder_scrolls_craft.sasa_pickaxe": "Sasa Pickaxe",
+      "item.the_elder_scrolls_craft.sasa_shovel": "Sasa Shovel",
+      "item.the_elder_scrolls_craft.sasa_armor_helmet": "Sasa Helmet",
+      "item.the_elder_scrolls_craft.sasa_hoe": "Sasa Hoe",
+      "item.the_elder_scrolls_craft.sasa_sword": "Sasa Sword",
+      "block.the_elder_scrolls_craft.sasa_block": "Block of Sasa",
+      "item.the_elder_scrolls_craft.sasa_armor_leggings": "Sasa Leggings",
+      "item.the_elder_scrolls_craft.sasa_axe": "Sasa Axe",
+      "block.the_elder_scrolls_craft.sasa_ore": "Sasa Ore",
+      "item.the_elder_scrolls_craft.sasa_armor_chestplate": "Sasa Chestplate",
+      "item.the_elder_scrolls_craft.sasa": "Sasa",
+      "item.the_elder_scrolls_craft.sasa_armor_boots": "Sasa Boots"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "the_elder_scrolls_craft",
+    "modName": "The_Elder_Scrolls_Craft",
+    "version": "1.0.0",
+    "author": "USER, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": true,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.theelderscrollscraft"
+  },
+  "mcreatorVersion": 202400118518
+}

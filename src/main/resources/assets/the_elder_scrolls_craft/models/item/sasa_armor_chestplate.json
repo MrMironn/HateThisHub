@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "the_elder_scrolls_craft:item/sasa_body"
+  }
+}

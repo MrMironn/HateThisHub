@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "the_elder_scrolls_craft:sasa_ore",
+  "step": "underground_ores"
+}
