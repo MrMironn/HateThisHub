@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_slab",
+  "category": "building",
+  "pattern": [
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_elder_scrolls_craft:sadsa_planks"
+    }
+  },
+  "result": {
+    "item": "the_elder_scrolls_craft:sadsa_slab",
+    "count": 6
+  }
+}

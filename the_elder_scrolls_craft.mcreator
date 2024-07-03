@@ -207,30 +207,349 @@
           "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_armor_leggings_recipe.json"
         ]
       }
+    },
+    {
+      "name": "SADSAWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_wood.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSAWoodBlock.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_wood.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_wood.json",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_wood.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSALog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_log.json",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_log.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_log.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_log.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSALogBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "SADSAPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_planks.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_planks.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSAPlanksBlock.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_planks.json",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSALeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_leaves",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSALeavesBlock.java",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_leaves.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_leaves.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_leaves.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_leaves.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_stairs.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_stairs_inner.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_stairs.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_stairs.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_stairs_outer.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSAStairsBlock.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_stairs.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSASlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSASlabBlock.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_slab_top.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_slab.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_slab.json",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_slab.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_slab_full.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_slab.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSAFenceBlock.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_fence.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_fence.json",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_fence.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_fence.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_fence_post.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_fence_inventory.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSAFenceGateBlock.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_fence_gate_wall_open.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_fence_gate_wall.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_fence_gate_open.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_fence_gate.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_fence_gate.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_fence_gate.json",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_fence_gate.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAPressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSAPressurePlateBlock.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_pressure_plate.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_pressure_plate_down.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_pressure_plate.json",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_pressure_plate.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_pressure_plate.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_button_inventory.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sadsa_button.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_button.json",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sadsa_button.json",
+          "src/main/java/net/mcreator/theelderscrollscraft/block/SADSAButtonBlock.java",
+          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sadsa_button_pressed.json",
+          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sadsa_button.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAPlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_planks_log_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAPlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_planks_wood_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_stairs_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSASlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_slab_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_fence_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_fence_gate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAPressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_pressure_plate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_button_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "SADSAStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sadsa_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/the_elder_scrolls_craft/recipes/sadsa_stick_recipe.json"
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "tag_elements": {
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:SADSASlab"
+    ],
     "BLOCKS:minecraft:mineable/pickaxe": [
       "~CUSTOM:SasaBlock"
     ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:SADSALeaves"
+    ],
     "BLOCKS:minecraft:needs_iron_tool": [
       "~CUSTOM:SasaBlock"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:SADSAPlanks",
+      "~CUSTOM:SADSALog",
+      "~CUSTOM:SADSAWood"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:SADSAStairs"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:SADSAFence"
     ]
   },
   "language_map": {
     "en_us": {
-      "item.the_elder_scrolls_craft.sasa_sword": "Sasa Sword",
+      "block.the_elder_scrolls_craft.sadsa_button": "SADSA Button",
+      "block.the_elder_scrolls_craft.sadsa_planks": "SADSA Planks",
       "item.the_elder_scrolls_craft.sasa_pickaxe": "Sasa Pickaxe",
-      "block.the_elder_scrolls_craft.sasa_block": "Block of Sasa",
-      "item.the_elder_scrolls_craft.sasa_armor_leggings": "Sasa Leggings",
       "item.the_elder_scrolls_craft.sasa_shovel": "Sasa Shovel",
       "item.the_elder_scrolls_craft.sasa_armor_helmet": "Sasa Helmet",
+      "block.the_elder_scrolls_craft.sadsa_log": "SADSA Log",
+      "block.the_elder_scrolls_craft.sadsa_slab": "SADSA Slab",
       "item.the_elder_scrolls_craft.sasa_hoe": "Sasa Hoe",
+      "item.the_elder_scrolls_craft.sasa_sword": "Sasa Sword",
+      "block.the_elder_scrolls_craft.sasa_block": "Block of Sasa",
+      "item.the_elder_scrolls_craft.sasa_armor_leggings": "Sasa Leggings",
+      "block.the_elder_scrolls_craft.sadsa_stairs": "SADSA Stairs",
+      "block.the_elder_scrolls_craft.sadsa_wood": "SADSA Wood",
+      "block.the_elder_scrolls_craft.sadsa_fence_gate": "SADSA Fence Gate",
       "item.the_elder_scrolls_craft.sasa_axe": "Sasa Axe",
+      "block.the_elder_scrolls_craft.sadsa_leaves": "SADSA Leaves",
       "item.the_elder_scrolls_craft.sasa_armor_chestplate": "Sasa Chestplate",
-      "item.the_elder_scrolls_craft.sasa_armor_boots": "Sasa Boots"
+      "item.the_elder_scrolls_craft.sasa_armor_boots": "Sasa Boots",
+      "block.the_elder_scrolls_craft.sadsa_fence": "SADSA Fence",
+      "block.the_elder_scrolls_craft.sadsa_pressure_plate": "SADSA Pressure Plate"
     }
   },
   "foldersRoot": {

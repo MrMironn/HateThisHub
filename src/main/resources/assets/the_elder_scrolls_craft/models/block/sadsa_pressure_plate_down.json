@@ -1,0 +1,7 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "the_elder_scrolls_craft:block/sadsa_planks"
+  },
+  "render_type": "solid"
+}

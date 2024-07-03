@@ -1,12 +1,22 @@
 {
-  "item.the_elder_scrolls_craft.sasa_sword": "Sasa Sword",
+  "block.the_elder_scrolls_craft.sadsa_button": "SADSA Button",
+  "block.the_elder_scrolls_craft.sadsa_planks": "SADSA Planks",
   "item.the_elder_scrolls_craft.sasa_pickaxe": "Sasa Pickaxe",
-  "block.the_elder_scrolls_craft.sasa_block": "Block of Sasa",
-  "item.the_elder_scrolls_craft.sasa_armor_leggings": "Sasa Leggings",
   "item.the_elder_scrolls_craft.sasa_shovel": "Sasa Shovel",
   "item.the_elder_scrolls_craft.sasa_armor_helmet": "Sasa Helmet",
+  "block.the_elder_scrolls_craft.sadsa_log": "SADSA Log",
+  "block.the_elder_scrolls_craft.sadsa_slab": "SADSA Slab",
   "item.the_elder_scrolls_craft.sasa_hoe": "Sasa Hoe",
+  "item.the_elder_scrolls_craft.sasa_sword": "Sasa Sword",
+  "block.the_elder_scrolls_craft.sasa_block": "Block of Sasa",
+  "item.the_elder_scrolls_craft.sasa_armor_leggings": "Sasa Leggings",
+  "block.the_elder_scrolls_craft.sadsa_stairs": "SADSA Stairs",
+  "block.the_elder_scrolls_craft.sadsa_wood": "SADSA Wood",
+  "block.the_elder_scrolls_craft.sadsa_fence_gate": "SADSA Fence Gate",
   "item.the_elder_scrolls_craft.sasa_axe": "Sasa Axe",
+  "block.the_elder_scrolls_craft.sadsa_leaves": "SADSA Leaves",
   "item.the_elder_scrolls_craft.sasa_armor_chestplate": "Sasa Chestplate",
-  "item.the_elder_scrolls_craft.sasa_armor_boots": "Sasa Boots"
+  "item.the_elder_scrolls_craft.sasa_armor_boots": "Sasa Boots",
+  "block.the_elder_scrolls_craft.sadsa_fence": "SADSA Fence",
+  "block.the_elder_scrolls_craft.sadsa_pressure_plate": "SADSA Pressure Plate"
 }

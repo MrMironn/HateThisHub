@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "the_elder_scrolls_craft:block/sadsa_slab"
+    },
+    "type=top": {
+      "model": "the_elder_scrolls_craft:block/sadsa_slab_top"
+    },
+    "type=double": {
+      "model": "the_elder_scrolls_craft:block/sadsa_slab_full"
+    }
+  }
+}

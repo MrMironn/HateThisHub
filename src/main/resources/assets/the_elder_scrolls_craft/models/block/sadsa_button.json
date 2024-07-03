@@ -1,0 +1,7 @@
+{
+  "parent": "block/button",
+  "textures": {
+    "texture": "the_elder_scrolls_craft:block/sadsa_planks"
+  },
+  "render_type": "solid"
+}

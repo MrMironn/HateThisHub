@@ -1,0 +1,9 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "the_elder_scrolls_craft:block/sadsa_planks",
+    "top": "the_elder_scrolls_craft:block/sadsa_planks",
+    "side": "the_elder_scrolls_craft:block/sadsa_planks"
+  },
+  "render_type": "solid"
+}

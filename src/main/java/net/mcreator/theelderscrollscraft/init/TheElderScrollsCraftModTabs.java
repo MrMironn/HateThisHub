@@ -23,6 +23,15 @@ public class TheElderScrollsCraftModTabs {
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
 			tabData.accept(TheElderScrollsCraftModBlocks.SASA_BLOCK.get().asItem());
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_WOOD.get().asItem());
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_LOG.get().asItem());
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_PLANKS.get().asItem());
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_STAIRS.get().asItem());
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_SLAB.get().asItem());
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_FENCE.get().asItem());
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_FENCE_GATE.get().asItem());
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_PRESSURE_PLATE.get().asItem());
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_BUTTON.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(TheElderScrollsCraftModItems.SASA_SWORD.get());
 			tabData.accept(TheElderScrollsCraftModItems.SASA_ARMOR_HELMET.get());
@@ -34,6 +43,8 @@ public class TheElderScrollsCraftModTabs {
 			tabData.accept(TheElderScrollsCraftModItems.SASA_AXE.get());
 			tabData.accept(TheElderScrollsCraftModItems.SASA_SHOVEL.get());
 			tabData.accept(TheElderScrollsCraftModItems.SASA_HOE.get());
+		} else if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(TheElderScrollsCraftModBlocks.SADSA_LEAVES.get().asItem());
 		}
 	}
 }

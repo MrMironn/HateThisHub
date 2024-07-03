@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "planks",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "the_elder_scrolls_craft:sadsa_wood"
+    }
+  ],
+  "result": {
+    "item": "the_elder_scrolls_craft:sadsa_planks",
+    "count": 4
+  }
+}

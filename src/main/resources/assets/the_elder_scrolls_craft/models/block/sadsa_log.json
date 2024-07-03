@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "the_elder_scrolls_craft:block/sadsa_log_top",
+    "up": "the_elder_scrolls_craft:block/sadsa_log_top",
+    "north": "the_elder_scrolls_craft:block/sadsa_log_side",
+    "east": "the_elder_scrolls_craft:block/sadsa_log_side",
+    "south": "the_elder_scrolls_craft:block/sadsa_log_side",
+    "west": "the_elder_scrolls_craft:block/sadsa_log_side",
+    "particle": "the_elder_scrolls_craft:block/sadsa_log_top"
+  },
+  "render_type": "solid"
+}

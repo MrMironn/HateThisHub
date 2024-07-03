@@ -1,0 +1,8 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "the_elder_scrolls_craft:block/sadsa_planks",
+    "particle": "the_elder_scrolls_craft:block/sadsa_planks"
+  },
+  "render_type": "solid"
+}
