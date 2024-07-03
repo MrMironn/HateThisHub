@@ -3,6 +3,7 @@
     {
       "name": "Sasa",
       "type": "item",
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa",
@@ -16,6 +17,7 @@
     {
       "name": "SasaOre",
       "type": "block",
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_ore",
@@ -35,6 +37,7 @@
     {
       "name": "SasaBlock",
       "type": "block",
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_block",
@@ -51,6 +54,7 @@
     {
       "name": "SasaOreBlockRecipe",
       "type": "recipe",
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_ore_block_recipe",
@@ -63,6 +67,7 @@
     {
       "name": "SasaBlockOreRecipe",
       "type": "recipe",
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_block_ore_recipe",
@@ -75,6 +80,7 @@
     {
       "name": "SasaOreSmelting",
       "type": "recipe",
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_ore_smelting",
@@ -87,6 +93,7 @@
     {
       "name": "SasaPickaxe",
       "type": "tool",
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_pickaxe",
@@ -100,6 +107,7 @@
     {
       "name": "SasaAxe",
       "type": "tool",
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_axe",
@@ -113,6 +121,7 @@
     {
       "name": "SasaSword",
       "type": "tool",
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_sword",
@@ -126,6 +135,7 @@
     {
       "name": "SasaShovel",
       "type": "tool",
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_shovel",
@@ -139,6 +149,7 @@
     {
       "name": "SasaHoe",
       "type": "tool",
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_hoe",
@@ -152,6 +163,7 @@
     {
       "name": "SasaPickaxeRecipe",
       "type": "recipe",
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_pickaxe_recipe",
@@ -164,6 +176,7 @@
     {
       "name": "SasaAxeRecipe",
       "type": "recipe",
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_axe_recipe",
@@ -176,6 +189,7 @@
     {
       "name": "SasaSwordRecipe",
       "type": "recipe",
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_sword_recipe",
@@ -188,6 +202,7 @@
     {
       "name": "SasaShovelRecipe",
       "type": "recipe",
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_shovel_recipe",
@@ -200,6 +215,7 @@
     {
       "name": "SasaHoeRecipe",
       "type": "recipe",
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_hoe_recipe",
@@ -212,6 +228,7 @@
     {
       "name": "SasaArmor",
       "type": "armor",
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_armor",
@@ -228,6 +245,7 @@
     {
       "name": "SasaArmorHelmetRecipe",
       "type": "recipe",
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_armor_helmet_recipe",
@@ -240,6 +258,7 @@
     {
       "name": "SasaArmorChestplateRecipe",
       "type": "recipe",
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_armor_chestplate_recipe",
@@ -252,6 +271,7 @@
     {
       "name": "SasaArmorLeggingsRecipe",
       "type": "recipe",
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_armor_leggings_recipe",
@@ -264,6 +284,7 @@
     {
       "name": "SasaArmorBootsRecipe",
       "type": "recipe",
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sasa_armor_boots_recipe",
