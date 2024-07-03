@@ -207,19 +207,6 @@
           "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_armor_leggings_recipe.json"
         ]
       }
-    },
-    {
-      "name": "SasaArmorBootsRecipe",
-      "type": "recipe",
-      "sortid": 21,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sasa_armor_boots_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_armor_boots_recipe.json"
-        ]
-      }
     }
   ],
   "variable_elements": [],
