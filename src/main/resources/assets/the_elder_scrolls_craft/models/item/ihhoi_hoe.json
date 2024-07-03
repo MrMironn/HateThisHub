@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "the_elder_scrolls_craft:item/ihhoi_hoe"
+  }
+}

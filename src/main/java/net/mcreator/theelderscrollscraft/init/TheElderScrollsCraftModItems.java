@@ -15,7 +15,6 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.theelderscrollscraft.item.SasaSwordItem;
 import net.mcreator.theelderscrollscraft.item.SasaShovelItem;
 import net.mcreator.theelderscrollscraft.item.SasaPickaxeItem;
-import net.mcreator.theelderscrollscraft.item.SasaItem;
 import net.mcreator.theelderscrollscraft.item.SasaHoeItem;
 import net.mcreator.theelderscrollscraft.item.SasaAxeItem;
 import net.mcreator.theelderscrollscraft.item.SasaArmorItem;
@@ -23,8 +22,6 @@ import net.mcreator.theelderscrollscraft.TheElderScrollsCraftMod;
 
 public class TheElderScrollsCraftModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TheElderScrollsCraftMod.MODID);
-	public static final RegistryObject<Item> SASA = REGISTRY.register("sasa", () -> new SasaItem());
-	public static final RegistryObject<Item> SASA_ORE = block(TheElderScrollsCraftModBlocks.SASA_ORE);
 	public static final RegistryObject<Item> SASA_BLOCK = block(TheElderScrollsCraftModBlocks.SASA_BLOCK);
 	public static final RegistryObject<Item> SASA_PICKAXE = REGISTRY.register("sasa_pickaxe", () -> new SasaPickaxeItem());
 	public static final RegistryObject<Item> SASA_AXE = REGISTRY.register("sasa_axe", () -> new SasaAxeItem());

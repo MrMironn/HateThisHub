@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "the_elder_scrolls_craft:sasa_block",
-    "the_elder_scrolls_craft:sasa_ore"
+    "the_elder_scrolls_craft:sasa_block"
   ]
 }

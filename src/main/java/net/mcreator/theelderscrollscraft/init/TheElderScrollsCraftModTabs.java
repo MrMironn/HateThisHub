@@ -22,7 +22,6 @@ public class TheElderScrollsCraftModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
 		if (tabData.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-			tabData.accept(TheElderScrollsCraftModBlocks.SASA_ORE.get().asItem());
 			tabData.accept(TheElderScrollsCraftModBlocks.SASA_BLOCK.get().asItem());
 		} else if (tabData.getTabKey() == CreativeModeTabs.COMBAT) {
 			tabData.accept(TheElderScrollsCraftModItems.SASA_SWORD.get());
@@ -30,8 +29,6 @@ public class TheElderScrollsCraftModTabs {
 			tabData.accept(TheElderScrollsCraftModItems.SASA_ARMOR_CHESTPLATE.get());
 			tabData.accept(TheElderScrollsCraftModItems.SASA_ARMOR_LEGGINGS.get());
 			tabData.accept(TheElderScrollsCraftModItems.SASA_ARMOR_BOOTS.get());
-		} else if (tabData.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-			tabData.accept(TheElderScrollsCraftModItems.SASA.get());
 		} else if (tabData.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
 			tabData.accept(TheElderScrollsCraftModItems.SASA_PICKAXE.get());
 			tabData.accept(TheElderScrollsCraftModItems.SASA_AXE.get());

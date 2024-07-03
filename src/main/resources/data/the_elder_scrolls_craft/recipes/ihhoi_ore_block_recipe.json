@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "aaa",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "the_elder_scrolls_craft:ihhoi"
+    }
+  },
+  "result": {
+    "item": "the_elder_scrolls_craft:ihhoi_block",
+    "count": 1
+  }
+}

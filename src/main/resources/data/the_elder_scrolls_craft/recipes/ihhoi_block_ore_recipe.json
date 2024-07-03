@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "the_elder_scrolls_craft:ihhoi_block"
+    }
+  ],
+  "result": {
+    "item": "the_elder_scrolls_craft:ihhoi",
+    "count": 9
+  }
+}

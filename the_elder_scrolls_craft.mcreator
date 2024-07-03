@@ -1,40 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "Sasa",
-      "type": "item",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sasa",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa.json",
-          "src/main/java/net/mcreator/theelderscrollscraft/item/SasaItem.java"
-        ]
-      }
-    },
-    {
-      "name": "SasaOre",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sasa_ore",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_elder_scrolls_craft/worldgen/configured_feature/sasa_ore.json",
-          "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sasa_ore.json",
-          "src/main/java/net/mcreator/theelderscrollscraft/block/SasaOreBlock.java",
-          "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sasa_ore.json",
-          "src/main/resources/assets/the_elder_scrolls_craft/models/block/sasa_ore.json",
-          "src/main/resources/data/the_elder_scrolls_craft/forge/biome_modifier/sasa_ore_biome_modifier.json",
-          "src/main/resources/data/the_elder_scrolls_craft/worldgen/placed_feature/sasa_ore.json",
-          "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_ore.json"
-        ]
-      }
-    },
-    {
       "name": "SasaBlock",
       "type": "block",
       "sortid": 3,
@@ -48,19 +14,6 @@
           "src/main/resources/assets/the_elder_scrolls_craft/blockstates/sasa_block.json",
           "src/main/resources/data/the_elder_scrolls_craft/loot_tables/blocks/sasa_block.json",
           "src/main/resources/assets/the_elder_scrolls_craft/models/block/sasa_block.json"
-        ]
-      }
-    },
-    {
-      "name": "SasaOreBlockRecipe",
-      "type": "recipe",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sasa_ore_block_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_ore_block_recipe.json"
         ]
       }
     },
@@ -187,19 +140,6 @@
       }
     },
     {
-      "name": "SasaSwordRecipe",
-      "type": "recipe",
-      "sortid": 14,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sasa_sword_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_sword_recipe.json"
-        ]
-      }
-    },
-    {
       "name": "SasaShovelRecipe",
       "type": "recipe",
       "sortid": 15,
@@ -239,19 +179,6 @@
           "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_armor_boots.json",
           "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_armor_chestplate.json",
           "src/main/resources/assets/the_elder_scrolls_craft/models/item/sasa_armor_helmet.json"
-        ]
-      }
-    },
-    {
-      "name": "SasaArmorHelmetRecipe",
-      "type": "recipe",
-      "sortid": 18,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sasa_armor_helmet_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/the_elder_scrolls_craft/recipes/sasa_armor_helmet_recipe.json"
         ]
       }
     },
@@ -299,27 +226,23 @@
   "sound_elements": [],
   "tag_elements": {
     "BLOCKS:minecraft:mineable/pickaxe": [
-      "~CUSTOM:SasaBlock",
-      "~CUSTOM:SasaOre"
+      "~CUSTOM:SasaBlock"
     ],
     "BLOCKS:minecraft:needs_iron_tool": [
-      "~CUSTOM:SasaBlock",
-      "~CUSTOM:SasaOre"
+      "~CUSTOM:SasaBlock"
     ]
   },
   "language_map": {
     "en_us": {
+      "item.the_elder_scrolls_craft.sasa_sword": "Sasa Sword",
       "item.the_elder_scrolls_craft.sasa_pickaxe": "Sasa Pickaxe",
+      "block.the_elder_scrolls_craft.sasa_block": "Block of Sasa",
+      "item.the_elder_scrolls_craft.sasa_armor_leggings": "Sasa Leggings",
       "item.the_elder_scrolls_craft.sasa_shovel": "Sasa Shovel",
       "item.the_elder_scrolls_craft.sasa_armor_helmet": "Sasa Helmet",
       "item.the_elder_scrolls_craft.sasa_hoe": "Sasa Hoe",
-      "item.the_elder_scrolls_craft.sasa_sword": "Sasa Sword",
-      "block.the_elder_scrolls_craft.sasa_block": "Block of Sasa",
-      "item.the_elder_scrolls_craft.sasa_armor_leggings": "Sasa Leggings",
       "item.the_elder_scrolls_craft.sasa_axe": "Sasa Axe",
-      "block.the_elder_scrolls_craft.sasa_ore": "Sasa Ore",
       "item.the_elder_scrolls_craft.sasa_armor_chestplate": "Sasa Chestplate",
-      "item.the_elder_scrolls_craft.sasa": "Sasa",
       "item.the_elder_scrolls_craft.sasa_armor_boots": "Sasa Boots"
     }
   },
